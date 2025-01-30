@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 980px;
+}
+
+.facebook-text {
+    max-width: 400px;
+    margin-left: 100px;
+}
+
+.facebook-logo {
+    font-size: 60px;
+    color: #1877f2;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.facebook-text p {
+    font-size: 20px;
+    color: #333;
+}
+
+.login-box {
+    background: #fff;
+    padding: 15px;
+    width: 380px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group input {
+    width: calc(100% - 62px);
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.login-button {
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 85%;
+}
+
+.login-button:hover {
+    background-color: #165dc1;
+}
+
+.forgot-password {
+    display: block;
+    color: #1877f2;
+    margin: 10px 0;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.create-account {
+    background-color: #42b72a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 60%;
+    margin-top: 14px;
+}
+
+.create-account:hover {
+    background-color: #36a420;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+    text-align: center;
+}
+
+.fb-text {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.bottom-login-text {
+    text-align: center;
+    font-size: 15px;
+}
