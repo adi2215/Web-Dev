@@ -1,0 +1,141 @@
+[
+    {
+        "name" : "Пластинка Lamar Kendrick To Pimp A Butterfly 2LP",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h27/h19/67874556313630.jpg?format=gallery-medium",
+        "description" : [
+            "Genre: R&B",
+            "Year: 2015",
+            "Label: Universal Music"
+        ],
+        "id" : 1,
+        "rating" : 5.0,
+        "price" : 79900,
+        "link" : "https://kaspi.kz/shop/p/lamar-kendrick-to-pimp-a-butterfly-2lp-108440314/?c=750000000"
+    },
+    {
+        "name" : "Пластинка Nirvana In Utero (30th Anniversary)",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h1a/h24/85649968693278.jpg?format=gallery-medium",
+        "description" : [
+            "Genre: Rock",
+            "Year: 2023 (Republish)",
+            "Label: DGC"
+        ],
+        "id" : 2,
+        "rating" : 5.0,
+        "price" : 69999,
+        "link" : "https://kaspi.kz/shop/p/nirvana-in-utero-30th-anniversary--118107923/?c=750000000"
+    },
+    {
+        "name" : "Пластинка Pink Floyd - Dark Side Of The Moon (2023 Remaster)",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h9a/h1b/84472763056158.jpg?format=gallery-medium",
+        "description" : [
+            "Genre: R&B",
+            "Year: 2015",
+            "Label: Universal Music"
+        ],
+        "id" : 3,
+        "rating" : 5.0,
+        "price" : 50000,
+        "link" : "https://kaspi.kz/shop/p/pink-floyd---dark-side-of-the-moon-2023-remaster--114429230/?c=750000000"
+    },
+    {
+        "name" : "Пластинка Radiohead Pablo Honey",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h68/h4a/83964267102238.jpg?format=gallery-medium",
+        "description" : [
+            "Genre: Rock",
+            "Year: 2016 (Republish)",
+            "Label: XL Recordings"
+        ],
+        "id" : 4,
+        "rating" : 5.0,
+        "price" : 31000,
+        "link" : "https://kaspi.kz/shop/p/radiohead-pablo-honey-113471894/?c=750000000"
+    },
+    {
+        "name" : "Цифровое пианино Yamaha P-45B",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hb4/h2b/63773870653470.jpg?format=gallery-medium",
+        "description" : [
+            "Learning Mode: No",
+            "Type: Digital piano",
+            "Number of Keys: 88",
+            "Key Action: Weighted",
+            "Song Recording: No",
+            "Pedals: Connectable"
+        ],
+        "id" : 5,
+        "rating" : 4.8,
+        "price" : 207990,
+        "link" : "https://kaspi.kz/shop/p/tsifrovoe-pianino-yamaha-p-45b-14300049/?c=750000000"
+    },
+    {
+        "name" : "Цифровое пианино Yamaha YDP-145WH",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hb2/h5c/69662360829982.jpg?format=gallery-medium",
+        "description" : [
+            "Learning Mode: No",
+            "Type: Digital piano",
+            "Number of Keys: 88",
+            "Key Action: Weighted",
+            "Song Recording: Yes",
+            "Pedals: Connectable"
+        ],
+        "id" : 6,
+        "rating" : 4.8,
+        "price" : 624590,
+        "link" : "https://kaspi.kz/shop/p/tsifrovoe-pianino-yamaha-ydp-145wh-109189071/?c=750000000"
+    },
+    {
+        "name" : "Цифровое пианино Yamaha YDP-145B",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h92/h5d/79242554769438.jpg?format=gallery-medium",
+        "description" : [
+            "Learning Mode: No",
+            "Type: Digital piano",
+            "Number of Keys: 88",
+            "Key Action: Weighted",
+            "Song Recording: Yes",
+            "Pedals: Connectable"
+        ],
+        "id" : 7,
+        "rating" : 5,
+        "price" : 609090,
+        "link" : "https://kaspi.kz/shop/p/tsifrovoe-pianino-yamaha-ydp-145b-109518135/?c=750000000"
+    },
+    {
+        "name" : "Книга Акутами Г.: Магическая битва. Часть 1. Двуликий Сукуна. Проклятый плод",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hef/hcd/65106699845662.jpg?format=gallery-medium",
+        "description" : [
+            "Genre: Manga",
+            "Subgenre: Shounen, Fantasy, Comedy, Mystery, Action, Horror, School",
+            "In Color: No"
+        ],
+        "id" : 8,
+        "rating" : 5,
+        "price" : 6217,
+        "link" : "https://kaspi.kz/shop/p/akutami-g-magicheskaja-bitva-chast-1-dvulikii-sukuna-prokljatyi-plod-105137134/?c=750000000"
+    },
+    {
+        "name" : "Книга Исида С.: Токийский гуль. Часть 1",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hc0/hf0/63816838447134.jpg?format=gallery-medium",
+        "description" : [
+            "Genre: Manga",
+            "Subgenre: Action, Horror, Science Fiction, Seinen, Drama, Mystery",
+            "In Color: No"
+        ],
+        "id" : 9,
+        "rating" : 5,
+        "price" : 7350,
+        "link" : "https://kaspi.kz/shop/p/isida-s-tokiiskii-gul-chast-1-26014610/?c=750000000"
+    }, 
+    {
+        "name" : "Книга Фудзимото Т.: Человек-бензопила. Часть 1. Пес и бензопила. Бензопила против нетопыря",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h3a/he3/64161538899998.jpg?format=gallery-medium",
+        "description" : [
+            "Genre: Manga",
+            "Subgenre: Shounen, Comedy, Drama, Action, Thriller, Dark Fantasy",
+            "In Color: No"
+        ],
+        "id" : 10,
+        "rating" : 5,
+        "price" : 7850,
+        "link" : "https://kaspi.kz/shop/p/fudzimoto-t-chelovek-benzopila-chast-1-pes-i-benzopila-benzopila-protiv-netopyrja-103331271/?c=750000000"
+    }
+]

@@ -1,0 +1,17 @@
+button {
+    font-size: 20px;
+    background-color: #6495ed;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all ease-in-out 10ms;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+app-primary-button.kaspi-link {
+    background-color: #88d8b0;
+}

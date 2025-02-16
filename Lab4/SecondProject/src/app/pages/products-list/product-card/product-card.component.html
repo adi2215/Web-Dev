@@ -1,0 +1,37 @@
+<div class="product-card-container">
+    <div class="image-container">
+        <img [ngSrc]="product.imageUrl" height="150" width="150">
+    </div>
+    
+    <div class="product-card-info">
+        <h3>{{ product.name }}</h3>
+        @for (item of product.description; track $index) {
+            <p> {{item}} </p>
+        }
+        <p><strong>Rating: </strong>{{ product.rating | rating }} ({{product.rating}})</p>
+
+        <div class="price-containter">
+            <hr>
+            <h4>Price</h4>
+            <h5>{{ product.price | currency: '₸' : 'symbol':'1.2-2' }}</h5>
+        </div>
+
+        <div class="buttons-container ">
+            <a [href]="product.link" target="_blank">
+                <app-primary-button label="Link" class="kaspi-link"/>
+            </a>
+    
+            <a [href]="'https://t.me/share/url?url=' + encodeProductURI(product.link) + '&text=' + encodeProductURI('Check out this amazing product!')" target="_blank">
+                <app-primary-button label="Share"/>
+            </a>
+        </div>
+
+          
+        <button>
+
+        </button>
+
+    </div>
+
+
+</div>
