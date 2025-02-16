@@ -1,0 +1,23 @@
+<p>The user's name is {{ name }}</p>
+<p>The user's occupation is {{ occupation }} </p>
+<p>Preferred Framework:</p>
+<ul>
+    <li>
+      Static Image:
+      <img ngSrc="/logo.svg" alt="Angular logo" width="32" height="32" />
+    </li>
+    <li>
+      Dynamic Image:
+      <img [ngSrc]="logoUrl" [alt]="logoAlt" width="32" height="32" />
+    </li>
+</ul>
+
+<p>
+  {{ name }}'s fav framework: {{ favoriteFramework }} <br>
+  <label for="framework">
+    Favorite Framework:
+    <input id="framework" type="text" [(ngModel)] = "favoriteFramework"/>
+  </label>
+  <button (click)="showFramework()">Show Framework
+  </button>
+</p>

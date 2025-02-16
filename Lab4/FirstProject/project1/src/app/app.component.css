@@ -1,0 +1,22 @@
+:host {
+    color:rgb(9, 19, 90);
+}
+h3 {
+    color: black;   
+}
+editable-div {
+    height: 40px;
+    width: 100%;
+    border: black 1px solid;
+}
+.event-binding-div {
+    width: 100%;
+    border: black 1px solid;
+}
+
+form {
+    margin: 40px 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}

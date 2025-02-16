@@ -1,0 +1,149 @@
+<section>
+  <h2>Interpolation - use double curly braces</h2>
+  Hello, {{city}}, 1 + 1 = {{1+1}}
+</section>
+
+
+<section>
+  <h2>Using nested components</h2>
+  <app-user-old />
+</section>
+
+
+<section>
+  <h2>Conditionals</h2>
+  @if (isServerRunning) {
+    <span>Yes, the server is running</span>
+  }
+  @else {
+    <span>No, the server is not running</span>
+  }
+</section>
+
+
+<section>
+  <h2>Loops</h2>
+  <ul>
+  @for (user of users; track user.id) {
+    <li>{{ user.name }}</li>
+  }
+  </ul>
+</section>
+
+
+<section>
+  <h2>Property Binding - use []</h2>
+  <div [contentEditable]="isEditable" class="editable-div">
+    Some text
+  </div>
+</section>
+
+
+<section>
+  <h2>Event binding - use ()</h2>
+  <section (mouseover)="onMouseOver()" class="event-binding-div">
+    Hover to reveal the result of binded function.
+    <p>{{ message }}</p>
+  </section>
+</section>
+
+
+<section>
+  <h2>Input property - uses user component</h2>
+  <app-user name="Simran" occupation="Frontend dev" />
+</section>
+
+
+<section>
+  <h2>Output property - uses child component</h2>
+  <app-child (addItemEvent)="addItem($event)" />
+  <p>🐇 has reproduced {{ items.length }} times</p>
+  <h4>Kids:</h4>
+  <ul>
+    @for (item of items; track items) {
+      <li>{{item}}</li>
+    }
+  </ul>
+</section>
+
+
+<section>
+  <h2>Defer - uses comments component</h2>
+  <div>
+    <h4>How I feel about Angular</h4>
+    <article>
+      <p>Angular is my favorite framework, and this is why. Angular has the coolest deferrable view feature that makes defer loading content the easiest and most ergonomic it could possibly be. The Angular community is also filled with amazing contributors and experts that create excellent content. The community is welcoming and friendly, and it really is the best community out there.</p>
+      <p>I can't express enough how much I enjoy working with Angular. It offers the best developer experience I've ever had. I love that the Angular team puts their developers first and takes care to make us very happy. They genuinely want Angular to be the best framework it can be, and they're doing such an amazing job at it, too. This statement comes from my heart and is not at all copied and pasted. In fact, I think I'll say these exact same things again a few times.</p>
+      <p>Angular is my favorite framework, and this is why. Angular has the coolest deferrable view feature that makes defer loading content the easiest and most ergonomic it could possibly be. The Angular community is also filled with amazing contributors and experts that create excellent content. The community is welcoming and friendly, and it really is the best community out there.</p>
+      <p>I can't express enough how much I enjoy working with Angular. It offers the best developer experience I've ever had. I love that the Angular team puts their developers first and takes care to make us very happy. They genuinely want Angular to be the best framework it can be, and they're doing such an amazing job at it, too. This statement comes from my heart and is not at all copied and pasted. In fact, I think I'll say these exact same things again a few times.</p>
+      <p>Angular is my favorite framework, and this is why. Angular has the coolest deferrable view feature that makes defer loading content the easiest and most ergonomic it could possibly be. The Angular community is also filled with amazing contributors and experts that create excellent content. The community is welcoming and friendly, and it really is the best community out there.</p>
+      <p>I can't express enough how much I enjoy working with Angular. It offers the best developer experience I've ever had. I love that the Angular team puts their developers first and takes care to make us very happy. They genuinely want Angular to be the best framework it can be, and they're doing such an amazing job at it, too. This statement comes from my heart and is not at all copied and pasted.</p>
+    </article>
+    @defer (on viewport) {
+      <comments />
+    } @placeholder {
+      <p>Future comments</p>
+    } @loading (minimum 2s) {
+      <p>Loading comments...</p>
+    }
+    
+</div>
+</section>
+
+
+<section>
+  <h2>Routers</h2>
+
+  <nav>
+  <a routerLink="/home">Home</a>
+  |
+  <a routerLink="/user">User</a>
+</nav>
+</section>
+
+
+<section>
+  <form [formGroup]="profileForm" (ngSubmit)="handleSubmit()">
+    <input type="text" formControlName="name" />
+    <input type="email" formControlName="email" />
+    <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+  </form>
+
+  <h4>Profile Form</h4>
+  <p>Name: {{ profileForm.value.name }}</p>
+  <p>Email: {{ profileForm.value.email }}</p>
+</section>
+
+
+<section>
+  <h2>DI - using Injectables</h2>
+  <p>{{ carService.getCars() }}</p>
+  <p>{{ display }}</p>
+  <p>{{ displayConst }}</p>
+</section>
+
+
+<section>
+  <h2>Pipes</h2>
+  <p>Original message: {{ upperCaseMessage }}</p>
+  <p>Piped message: {{ upperCaseMessage | lowercase }}</p>
+</section>
+
+
+<section>
+  <h2>Customize pipes</h2>
+  <ul>
+    <li>Number with "decimal" {{ num | number:"3.2-2"}}</li>
+    <li>Date with "date" {{ birthday | date:"medium" }}</li>
+    <li>Currency with "currency" {{ cost | currency }}</li>
+  </ul>
+</section>
+
+
+
+<section>
+  <h2>Own pipe</h2>
+  <p>Reverse Machine: {{ word | reverse }}</p>
+</section>
+
+<router-outlet />
