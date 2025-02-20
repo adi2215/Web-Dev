@@ -8,7 +8,7 @@
         @for (item of product.description; track $index) {
             <p> {{item}} </p>
         }
-        <p><strong>Rating: </strong>{{ product.rating | rating }} ({{product.rating}})</p>
+        <br><p>{{ product.rating | rating }} ({{product.rating}})</p>
 
         <div class="price-containter">
             <hr>
@@ -21,7 +21,7 @@
                 <app-primary-button label="Link" class="kaspi-link"/>
             </a>
     
-            <a [href]="'https://t.me/share/url?url=' + encodeProductURI(product.link) + '&text=' + encodeProductURI('Check out this amazing product!')" target="_blank">
+            <a [href]="'https://t.me/share/url?url=' + encodeProductURI(product.link) + '&text=' + encodeProductURI('Check this product!')" target="_blank">
                 <app-primary-button label="Share"/>
             </a>
         </div>

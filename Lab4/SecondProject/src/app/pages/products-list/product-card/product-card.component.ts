@@ -12,7 +12,7 @@ import { PrimaryButtonComponent } from "../../../components/primary-button/prima
   styleUrl: './product-card.component.css'
 })
 export class ProductCardComponent {
-  encodeProductURI(uri: string) { //wrapper method - sorry did not come up with a smarter way
+  encodeProductURI(uri: string) { 
     return encodeURIComponent(uri);
   }
 

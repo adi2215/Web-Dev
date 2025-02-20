@@ -1,111 +1,102 @@
 [
     {
-        "name" : "Пластинка Lamar Kendrick To Pimp A Butterfly 2LP",
-        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h27/h19/67874556313630.jpg?format=gallery-medium",
+        "name" : "Книга Чхугон: Поднятие уровня в одиночку. Solo Leveling. Том 1",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h53/haa/84640271892510.jpg?format=gallery-large",
         "description" : [
-            "Genre: R&B",
-            "Year: 2015",
-            "Label: Universal Music"
+            "Издательство: АСТ",
+            "Дата выхода: 2023",
+            "Количество страниц: 320"
         ],
         "id" : 1,
         "rating" : 5.0,
-        "price" : 79900,
-        "link" : "https://kaspi.kz/shop/p/lamar-kendrick-to-pimp-a-butterfly-2lp-108440314/?c=750000000"
+        "price" : 7627,
+        "link" : "https://kaspi.kz/shop/p/chhugon-podnjatie-urovnja-v-odinochku-solo-leveling-tom-1--115081304/?c=750000000"
     },
     {
-        "name" : "Пластинка Nirvana In Utero (30th Anniversary)",
-        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h1a/h24/85649968693278.jpg?format=gallery-medium",
+        "name" : "Книга Ода Э.: One Piece. Большой куш. Часть 1",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hd0/h45/63800373837854.jpg?format=gallery-large",
         "description" : [
-            "Genre: Rock",
-            "Year: 2023 (Republish)",
-            "Label: DGC"
+            "Издательство: Азбука",
+            "Дата выхода: 2019",
+            "Количество страниц: 608"
         ],
         "id" : 2,
         "rating" : 5.0,
-        "price" : 69999,
-        "link" : "https://kaspi.kz/shop/p/nirvana-in-utero-30th-anniversary--118107923/?c=750000000"
+        "price" : 7570,
+        "link" : "https://kaspi.kz/shop/p/oda-e-one-piece-bol-shoi-kush-chast-1-26024856/?c=750000000"
     },
     {
-        "name" : "Пластинка Pink Floyd - Dark Side Of The Moon (2023 Remaster)",
-        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h9a/h1b/84472763056158.jpg?format=gallery-medium",
+        "name" : "Книга Мотидзуки Д.: Сердца Пандоры. Книга 7",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h18/h51/64484087988254.jpg?format=gallery-large",
         "description" : [
-            "Genre: R&B",
-            "Year: 2015",
-            "Label: Universal Music"
+            "Издательство: Азбука",
+            "Дата выхода: 2022",
+            "Количество страниц: 352"
         ],
         "id" : 3,
         "rating" : 5.0,
-        "price" : 50000,
-        "link" : "https://kaspi.kz/shop/p/pink-floyd---dark-side-of-the-moon-2023-remaster--114429230/?c=750000000"
+        "price" : 6250,
+        "link" : "https://kaspi.kz/shop/p/motidzuki-d-serdtsa-pandory-kniga-7-106259790/?c=750000000"
     },
     {
-        "name" : "Пластинка Radiohead Pablo Honey",
-        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h68/h4a/83964267102238.jpg?format=gallery-medium",
+        "name" : "Книга Ооба Ц., Обата Т.: Бакуман. Часть 1",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hc3/h2a/63784198012958.jpg?format=gallery-large",
         "description" : [
-            "Genre: Rock",
-            "Year: 2016 (Republish)",
-            "Label: XL Recordings"
+           "Издательство: Азбука",
+           "Дата выхода: 2016",
+           "Количество страниц: 400"
         ],
         "id" : 4,
         "rating" : 5.0,
-        "price" : 31000,
-        "link" : "https://kaspi.kz/shop/p/radiohead-pablo-honey-113471894/?c=750000000"
+        "price" : 5550,
+        "link" : "https://kaspi.kz/shop/p/ooba-ts-obata-t-bakuman-chast-1-26013601/?c=750000000"
     },
     {
-        "name" : "Цифровое пианино Yamaha P-45B",
-        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hb4/h2b/63773870653470.jpg?format=gallery-medium",
+        "name" : "Книга Акасака А.: Госпожа Кагуя: В любви как на войне : Любовная битва двух гениев. Книга 2",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hae/hf9/64023755030558.jpg?format=gallery-large",
         "description" : [
-            "Learning Mode: No",
-            "Type: Digital piano",
-            "Number of Keys: 88",
-            "Key Action: Weighted",
-            "Song Recording: No",
-            "Pedals: Connectable"
+            "Издательство: Азбука",
+            "Дата выхода: 2021",
+            "Количество страниц: 424"
         ],
         "id" : 5,
-        "rating" : 4.8,
-        "price" : 207990,
-        "link" : "https://kaspi.kz/shop/p/tsifrovoe-pianino-yamaha-p-45b-14300049/?c=750000000"
+        "rating" : 5.0,
+        "price" : 5797,
+        "link" : "https://kaspi.kz/shop/p/akasaka-a-gospozha-kaguja-v-ljubvi-kak-na-voine-ljubovnaja-bitva-dvuh-geniev-kniga-2-101054685/?c=750000000"
     },
     {
-        "name" : "Цифровое пианино Yamaha YDP-145WH",
-        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hb2/h5c/69662360829982.jpg?format=gallery-medium",
+        "name" : "Книга Еми Х.: У меня мало друзей. Том 1",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h0e/h7f/63791662792734.jpg?format=gallery-large",
         "description" : [
-            "Learning Mode: No",
-            "Type: Digital piano",
-            "Number of Keys: 88",
-            "Key Action: Weighted",
-            "Song Recording: Yes",
-            "Pedals: Connectable"
+            "Издательство: XL Media",
+            "Дата выхода: 2012",
+            "Количество страниц: 182"
         ],
         "id" : 6,
-        "rating" : 4.8,
-        "price" : 624590,
-        "link" : "https://kaspi.kz/shop/p/tsifrovoe-pianino-yamaha-ydp-145wh-109189071/?c=750000000"
+        "rating" : 5,
+        "price" : 2850,
+        "link" : "https://kaspi.kz/shop/p/emi-h-u-menja-malo-druzei-tom-1-26019263/?c=750000000"
     },
     {
-        "name" : "Цифровое пианино Yamaha YDP-145B",
-        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h92/h5d/79242554769438.jpg?format=gallery-medium",
+        "name" : "Книга Суволь, Квон Гёыль: Единственный конец злодейки - смерть. Том 5",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h10/ha9/86582086107166.png?format=gallery-large",
         "description" : [
-            "Learning Mode: No",
-            "Type: Digital piano",
-            "Number of Keys: 88",
-            "Key Action: Weighted",
-            "Song Recording: Yes",
-            "Pedals: Connectable"
+            "Издательство: Миф",
+            "Дата выхода: 2023",
+            "Количество страниц: 272"
         ],
         "id" : 7,
         "rating" : 5,
-        "price" : 609090,
-        "link" : "https://kaspi.kz/shop/p/tsifrovoe-pianino-yamaha-ydp-145b-109518135/?c=750000000"
+        "price" : 6037,
+        "link" : "https://kaspi.kz/shop/p/suvol-kvon-gjoyl-edinstvennyi-konets-zlodeiki---smert-tom-5-121643477/?c=750000000"
     },
     {
         "name" : "Книга Акутами Г.: Магическая битва. Часть 1. Двуликий Сукуна. Проклятый плод",
         "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hef/hcd/65106699845662.jpg?format=gallery-medium",
         "description" : [
-            "Genre: Manga",
-            "Subgenre: Shounen, Fantasy, Comedy, Mystery, Action, Horror, School",
-            "In Color: No"
+            "Издательство: Азбука",
+            "Дата выхода: 2022",
+            "Количество страниц: 384"
         ],
         "id" : 8,
         "rating" : 5,
@@ -116,9 +107,9 @@
         "name" : "Книга Исида С.: Токийский гуль. Часть 1",
         "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hc0/hf0/63816838447134.jpg?format=gallery-medium",
         "description" : [
-            "Genre: Manga",
-            "Subgenre: Action, Horror, Science Fiction, Seinen, Drama, Mystery",
-            "In Color: No"
+            "Издательство: Азбука",
+            "Дата выхода: 2018",
+            "Количество страниц: 432"
         ],
         "id" : 9,
         "rating" : 5,
@@ -129,9 +120,9 @@
         "name" : "Книга Фудзимото Т.: Человек-бензопила. Часть 1. Пес и бензопила. Бензопила против нетопыря",
         "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h3a/he3/64161538899998.jpg?format=gallery-medium",
         "description" : [
-            "Genre: Manga",
-            "Subgenre: Shounen, Comedy, Drama, Action, Thriller, Dark Fantasy",
-            "In Color: No"
+            "Издательство: Азбука",
+            "Дата выхода: 2021",
+            "Количество страниц: 384"
         ],
         "id" : 10,
         "rating" : 5,
