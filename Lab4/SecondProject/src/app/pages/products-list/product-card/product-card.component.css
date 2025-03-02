@@ -70,4 +70,22 @@
     margin-top: 12px;
     display: flex;
     justify-content: space-between;
+    gap: 10px;
+}
+
+.favorite-button {
+    background-color: #eee;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.favorite-button.active {
+    background-color: red;
+    color: white;
 }

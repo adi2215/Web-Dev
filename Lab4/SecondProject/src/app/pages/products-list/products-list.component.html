@@ -1,5 +1,16 @@
-<div class="products-list-container">
-    @for (item of products(); track item.id) {
-        <app-product-card [product]="item"/>
+<div class="categories-list">
+    @for (category of categories(); track category.id) {
+        <button (click)="selectCategory(category)">{{ category.name }}</button>
     }
 </div>
+
+<div class="products-list-container">
+    @for (item of selectedCategory()?.products ?? []; track item.id) {
+        <app-product-card 
+            [product]="item" 
+            [isFavorite]="isFavorite(item)"
+            (favoriteToggled)="toggleFavorite($event)"
+        />
+    }
+</div>
+

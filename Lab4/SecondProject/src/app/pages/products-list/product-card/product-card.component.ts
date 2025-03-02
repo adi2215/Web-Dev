@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Product } from '../products.models';
 import { CurrencyPipe, NgOptimizedImage } from '@angular/common';
 import { RatingPipe } from './rating.pipe';
@@ -12,10 +12,16 @@ import { PrimaryButtonComponent } from "../../../components/primary-button/prima
   styleUrl: './product-card.component.css'
 })
 export class ProductCardComponent {
-  encodeProductURI(uri: string) { 
+  @Input({ required: true }) product!: Product;
+  @Input() isFavorite = false;
+
+  @Output() favoriteToggled = new EventEmitter<Product>();
+
+  encodeProductURI(uri: string) {
     return encodeURIComponent(uri);
   }
 
-  @Input({required: true}) product! : Product;
-
+  toggleFavorite() {
+    this.favoriteToggled.emit(this.product);
+  }
 }

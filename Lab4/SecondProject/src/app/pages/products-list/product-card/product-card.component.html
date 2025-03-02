@@ -16,7 +16,7 @@
             <h5>{{ product.price | currency: '₸' : 'symbol':'1.2-2' }}</h5>
         </div>
 
-        <div class="buttons-container ">
+        <div class="buttons-container">
             <a [href]="product.link" target="_blank">
                 <app-primary-button label="Link" class="kaspi-link"/>
             </a>
@@ -24,12 +24,11 @@
             <a [href]="'https://t.me/share/url?url=' + encodeProductURI(product.link) + '&text=' + encodeProductURI('Check this product!')" target="_blank">
                 <app-primary-button label="Share"/>
             </a>
+
+            <button (click)="toggleFavorite()" class="favorite-button" [class.active]="isFavorite">
+                ❤️ {{ isFavorite ? 'Unfavorite' : 'Favorite' }}
+            </button>          
         </div>
-
-          
-        <button>
-
-        </button>
 
     </div>
 
