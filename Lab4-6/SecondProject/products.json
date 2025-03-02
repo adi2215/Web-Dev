@@ -1,0 +1,132 @@
+[
+    {
+        "name" : "Книга Чхугон: Поднятие уровня в одиночку. Solo Leveling. Том 1",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h53/haa/84640271892510.jpg?format=gallery-large",
+        "description" : [
+            "Издательство: АСТ",
+            "Дата выхода: 2023",
+            "Количество страниц: 320"
+        ],
+        "id" : 1,
+        "rating" : 5.0,
+        "price" : 7627,
+        "link" : "https://kaspi.kz/shop/p/chhugon-podnjatie-urovnja-v-odinochku-solo-leveling-tom-1--115081304/?c=750000000"
+    },
+    {
+        "name" : "Книга Ода Э.: One Piece. Большой куш. Часть 1",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hd0/h45/63800373837854.jpg?format=gallery-large",
+        "description" : [
+            "Издательство: Азбука",
+            "Дата выхода: 2019",
+            "Количество страниц: 608"
+        ],
+        "id" : 2,
+        "rating" : 5.0,
+        "price" : 7570,
+        "link" : "https://kaspi.kz/shop/p/oda-e-one-piece-bol-shoi-kush-chast-1-26024856/?c=750000000"
+    },
+    {
+        "name" : "Книга Мотидзуки Д.: Сердца Пандоры. Книга 7",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h18/h51/64484087988254.jpg?format=gallery-large",
+        "description" : [
+            "Издательство: Азбука",
+            "Дата выхода: 2022",
+            "Количество страниц: 352"
+        ],
+        "id" : 3,
+        "rating" : 5.0,
+        "price" : 6250,
+        "link" : "https://kaspi.kz/shop/p/motidzuki-d-serdtsa-pandory-kniga-7-106259790/?c=750000000"
+    },
+    {
+        "name" : "Книга Ооба Ц., Обата Т.: Бакуман. Часть 1",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hc3/h2a/63784198012958.jpg?format=gallery-large",
+        "description" : [
+           "Издательство: Азбука",
+           "Дата выхода: 2016",
+           "Количество страниц: 400"
+        ],
+        "id" : 4,
+        "rating" : 5.0,
+        "price" : 5550,
+        "link" : "https://kaspi.kz/shop/p/ooba-ts-obata-t-bakuman-chast-1-26013601/?c=750000000"
+    },
+    {
+        "name" : "Книга Акасака А.: Госпожа Кагуя: В любви как на войне : Любовная битва двух гениев. Книга 2",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hae/hf9/64023755030558.jpg?format=gallery-large",
+        "description" : [
+            "Издательство: Азбука",
+            "Дата выхода: 2021",
+            "Количество страниц: 424"
+        ],
+        "id" : 5,
+        "rating" : 5.0,
+        "price" : 5797,
+        "link" : "https://kaspi.kz/shop/p/akasaka-a-gospozha-kaguja-v-ljubvi-kak-na-voine-ljubovnaja-bitva-dvuh-geniev-kniga-2-101054685/?c=750000000"
+    },
+    {
+        "name" : "Книга Еми Х.: У меня мало друзей. Том 1",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h0e/h7f/63791662792734.jpg?format=gallery-large",
+        "description" : [
+            "Издательство: XL Media",
+            "Дата выхода: 2012",
+            "Количество страниц: 182"
+        ],
+        "id" : 6,
+        "rating" : 5,
+        "price" : 2850,
+        "link" : "https://kaspi.kz/shop/p/emi-h-u-menja-malo-druzei-tom-1-26019263/?c=750000000"
+    },
+    {
+        "name" : "Книга Суволь, Квон Гёыль: Единственный конец злодейки - смерть. Том 5",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h10/ha9/86582086107166.png?format=gallery-large",
+        "description" : [
+            "Издательство: Миф",
+            "Дата выхода: 2023",
+            "Количество страниц: 272"
+        ],
+        "id" : 7,
+        "rating" : 5,
+        "price" : 6037,
+        "link" : "https://kaspi.kz/shop/p/suvol-kvon-gjoyl-edinstvennyi-konets-zlodeiki---smert-tom-5-121643477/?c=750000000"
+    },
+    {
+        "name" : "Книга Акутами Г.: Магическая битва. Часть 1. Двуликий Сукуна. Проклятый плод",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hef/hcd/65106699845662.jpg?format=gallery-medium",
+        "description" : [
+            "Издательство: Азбука",
+            "Дата выхода: 2022",
+            "Количество страниц: 384"
+        ],
+        "id" : 8,
+        "rating" : 5,
+        "price" : 6217,
+        "link" : "https://kaspi.kz/shop/p/akutami-g-magicheskaja-bitva-chast-1-dvulikii-sukuna-prokljatyi-plod-105137134/?c=750000000"
+    },
+    {
+        "name" : "Книга Исида С.: Токийский гуль. Часть 1",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/hc0/hf0/63816838447134.jpg?format=gallery-medium",
+        "description" : [
+            "Издательство: Азбука",
+            "Дата выхода: 2018",
+            "Количество страниц: 432"
+        ],
+        "id" : 9,
+        "rating" : 5,
+        "price" : 7350,
+        "link" : "https://kaspi.kz/shop/p/isida-s-tokiiskii-gul-chast-1-26014610/?c=750000000"
+    }, 
+    {
+        "name" : "Книга Фудзимото Т.: Человек-бензопила. Часть 1. Пес и бензопила. Бензопила против нетопыря",
+        "imageUrl" : "https://resources.cdn-kaspi.kz/img/m/p/h3a/he3/64161538899998.jpg?format=gallery-medium",
+        "description" : [
+            "Издательство: Азбука",
+            "Дата выхода: 2021",
+            "Количество страниц: 384"
+        ],
+        "id" : 10,
+        "rating" : 5,
+        "price" : 7850,
+        "link" : "https://kaspi.kz/shop/p/fudzimoto-t-chelovek-benzopila-chast-1-pes-i-benzopila-benzopila-protiv-netopyrja-103331271/?c=750000000"
+    }
+]
