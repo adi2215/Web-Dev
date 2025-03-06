@@ -1,0 +1,26 @@
+h1 {
+    color: var(--primary-light);
+    margin: 20px 0;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.about-text {
+    padding: 0 60px;
+}
+
+h2 {
+    color: var(--primary-light);
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 180px;
+}

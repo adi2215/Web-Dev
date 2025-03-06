@@ -1,0 +1,53 @@
+.album-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 100px;
+    justify-content: center;
+}
+
+.album-container {
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    border: 1px solid var(--light);
+    border-radius: 8px;
+}
+
+.album-container h3 {
+    font-size: 22px;
+}
+
+.album-info-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.album-ids-contatiner {
+    margin: 16px 0;
+}
+
+.album-remove-button-container {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 12px;
+}
+
+.album-remove-button {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    transition: ease-in 0.1s;
+}
+
+.album-remove-button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+

@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary: 	#137a7f;
+    --secondary: #06053b;
+    --primary-light: #37a8ae;
+    --secondary-light: 	#0f0d82;
+    --dark: #3f4750;
+    --dark-secondary: #373b3e;
+    --light: #d0d9e0;
+    --grey: 	#bec8d1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: 	var(--dark);
+    color: 	var(--light);
+    font-family: 'Roboto Condensed', Arial;
+}
+
+a {
+    text-decoration: none;
+    color: var(--light);
+}

@@ -1,0 +1,13 @@
+.primary-button {
+    font-size: 12px;
+    background-color: var(--secondary);
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: fit-content;
+    transition: ease-in 0.1s;
+}
+
+.primary-button:hover {
+    background-color: var(--secondary-light);
+}
